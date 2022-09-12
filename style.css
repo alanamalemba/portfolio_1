@@ -133,7 +133,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 70vh;
     color: white;
     background-color: black;
     gap: 20px;
@@ -147,6 +147,9 @@ ul{
 a{
     text-decoration: none;
     color: grey;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .contact-title{
@@ -164,6 +167,11 @@ a{
     font-weight: bold;
 }
 
+.contact-list ul{
+    display: flex;
+    flex-direction: column;
+}
+
 .contact-list li{
     margin: 10px;
 }
@@ -173,4 +181,9 @@ a{
     background-color: black;
     text-align: center;
     padding: 8px;
+}
+
+a .logo{
+    height: 32px;
+    width: 32px;
 }
