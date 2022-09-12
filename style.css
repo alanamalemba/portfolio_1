@@ -149,7 +149,7 @@ a{
     color: grey;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 5px; 
 }
 
 .contact-title{
