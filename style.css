@@ -1,189 +1,217 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'open sans';
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
 }
 
-.intro{
-    background-color: grey;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
+.intro {
+  background-color: grey;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
 }
 
-.image img{
-    height: 380px;
-    border-radius: 48px;
+.image img {
+  margin-left: 1.5vh;
+  height: 40vh;
+  border-radius: 48px;
+  /* width: 32vh; */
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.45);
 }
 
-.intro-info{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    gap: 40px;
+.intro-name {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 3.5em;
+  width: fit-content;
+  /* box-shadow: 0 15px 10px rgba(0, 0, 0, 0.45); */
+}
+.intro-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 6vh;
 }
 
-.intro-name{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-size: 60px;
-}
-.job-title{
-    color: burlywood;
-    font-size: 26px;
-    font-weight: 700;
+.job-title {
+  color: burlywood;
+  font-size: 3em;
+  font-weight: 700;
 }
 
-.skills{
-    display: flex;
-    background-color: lightgray;
-    height: 50vh;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-    
+.skills {
+  display: flex;
+  background-color: lightgray;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
 }
 
-.skills-title{
-    display: flex;
-    flex-direction: column;
+.skills-title {
+  display: flex;
+  flex-direction: column;
 }
 
-.skills-list{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 18px;
-    gap: 20px;
-    color: grey;
-    border: 4px solid black;
-    border-radius: 20px;
-    padding: 20px;
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 20px;
+  color: grey;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid grey;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.45);
 }
 
-.s-p{
-    font-size: 70px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
+.skills-list span {
+  border-bottom: solid gray 1px;
 }
 
-.education{
-    display: flex;
-    gap: 80px;
-    height: 50vh;
-    background-color:beige;
-    justify-content: center;
-    align-items: center;
+svg {
+  height: 1.1em;
+}
+.s-p {
+  font-size: 3.8em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
 }
 
-.education-title{
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    font-size: 50px;
-    
+.education {
+  display: flex;
+  gap: 3vh;
+  height: 50vh;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
 }
 
-.edu-container{
-    display: block;
-    border: 4px solid grey;
-    width: 200px;
-    padding: 20px;
-    border-radius: 20px;
+.education-title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 3.8em;
 }
 
-.education-year{
-    font-weight: bold;
-    margin-bottom: 10px;
-
-}
-.course{
-    font-weight: bold;
-    color: brown;
-}
-.about-course{
-    font-weight: 700;
+.edu-container {
+  display: block;
+  width: 26vh;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.45);
 }
 
-p{
-    margin: 0;
+.education-year {
+  font-weight: bold;
+  margin-bottom: 1.5vh;
+}
+.course {
+  font-weight: bold;
+  color: brown;
+}
+.about-course {
+  font-weight: 700;
 }
 
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    color: white;
-    font-weight: bold;
-    height: 60vh;
+p {
+  margin: 0;
 }
 
-.about-info{
-    width: 60%;
-    font-size:20px;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  min-height: fit-content;
+  padding: 4vh;
+  min-height: 70vh;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    color: white;
-    background-color: black;
-    gap: 20px;
+.about-info {
+  width: 70vw;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 4vh;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.45);
+  text-shadow: 0 3px 4px black;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  color: white;
+  background-color: rgba(37, 34, 34, 0.767);
+  gap: 2vh;
+  padding: 4vh;
 }
 
-a{
-    text-decoration: none;
-    color: grey;
-    display: flex;
-    align-items: center;
-    gap: 5px; 
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.contact-title{
-    font-weight: bold;
-    font-size: 50px;
+a {
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+  text-shadow: 0 5px 5px black;
+  font-size: 2em;
 }
 
-.contact-name{
-    font-weight: bold;
-    font-size: 30px;
-    color: burlywood;
+.contact-title {
+  font-weight: bold;
+  font-size: 4em;
+  text-shadow: 0 6px 4px black;
 }
 
-.contact-list{
-    font-weight: bold;
+.contact-name {
+  font-weight: bold;
+  font-size: 3em;
+  color: burlywood;
 }
 
-.contact-list ul{
-    display: flex;
-    flex-direction: column;
+.contact-list {
+  font-weight: bold;
 }
 
-.contact-list li{
-    margin: 10px;
+.contact-list ul {
+  display: flex;
+  flex-direction: column;
 }
 
-.footer{
-    color: grey;
-    background-color: black;
-    text-align: center;
-    padding: 8px;
+.contact-list li {
+  margin: 1.5vh;
 }
 
-a .logo{
-    height: 32px;
-    width: 32px;
+.footer {
+  color: grey;
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+}
+
+a .logo {
+  height: 32px;
+  width: 32px;
+}
+
+a:hover {
+  color: brown;
+  scale: 1.1;
+  transition: 0.3s ease-in-out;
 }
